@@ -10,7 +10,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'Frenimees',
-  tokenName: 'Frenimees',
+  tokenName: 'NFT Collection',
   tokenSymbol: 'YC',
   hiddenMetadataUri: 'ipfs://QmWvb5h8dTGtaW5cmgikopqHDcfNMtptCmguUf2ZqM77ok/',
   maxSupply: 12000,

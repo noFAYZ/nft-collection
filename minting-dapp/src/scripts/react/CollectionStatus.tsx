@@ -34,18 +34,11 @@ export default class CollectionStatus extends React.Component<Props, State> {
       <>
         <div className="collection-status">
              
-          <div className="supply">
-            <span className="label">Supply</span>
-            {this.props.totalSupply}/{this.props.maxSupply}
-          </div>
 
-          <div className="current-sale">
-            <span className="label">Sale </span>
-            Free Mint :)
-            
-          </div>
+       
           <div className="user-address">
-            <span className="label">Progress:</span>
+            <span className="label pb-2">Progress:</span>
+            {this.props.totalSupply}/{this.props.maxSupply}
             <ProgressBar progressPercentage={this.props.totalSupply / this.props.maxSupply * 100} />
 
           </div>

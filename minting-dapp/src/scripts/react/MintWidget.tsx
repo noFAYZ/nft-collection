@@ -64,17 +64,28 @@ export default class MintWidget extends React.Component<Props, State> {
     return (
       <>
         {this.canMint() ?
+
+        <> 
           <div className={`mint-widget ${this.props.loading ? 'animate-pulse saturate-0 pointer-events-none' : ''}`}>
         
-
+          <div className="w-full mb-10">
+              <img src="/build/images/preview.gif" alt="Collection preview" className='w-full' />
+            </div>
 
             <div className="controls">
               <button className="decrease" disabled={this.props.loading} onClick={() => this.decrementMintAmount()}>-</button>
               <span className="mint-amount">{this.state.mintAmount}</span>
               <button className="increase" disabled={this.props.loading} onClick={() => this.incrementMintAmount()}>+</button>
-              <button className="primary" disabled={this.props.loading} onClick={() => this.mint()}>Mint</button>
+              
             </div>
+           
           </div>
+          <div className='flex items-center justify-center px-5 py-3'>
+
+<button className="primary text-xl" disabled={this.props.loading} onClick={() => this.mint()}>Mint</button>
+
+</div>
+          </>
           :
           <div className="cannot-mint">
             <span className="emoji">⏳</span>

@@ -5,6 +5,7 @@ import ReactDOM from 'react-dom';
 import Dapp from './react/Dapp';
 import CollectionConfig from '../../../smart-contract/config/CollectionConfig';
 import { ToastContainer } from 'react-toastify';
+import NavBar from './react/NavBar';
 
 if (document.title === '') {
   document.title = CollectionConfig.tokenName;
@@ -12,6 +13,7 @@ if (document.title === '') {
 
 document.addEventListener('DOMContentLoaded', async () => {
   ReactDOM.render(<>
+
     <ToastContainer
           position='top-left'
           autoClose={5000}

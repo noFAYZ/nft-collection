@@ -69,7 +69,7 @@ export default class MintWidget extends React.Component<Props, State> {
           <div className={`mint-widget ${this.props.loading ? 'animate-pulse saturate-0 pointer-events-none' : ''}`}>
         
           <div className="w-full mb-12">
-              <img src="/build/images/preview.gif" alt="Collection preview" className='w-full' />
+              <img src="/build/images/WGDAS.png" alt="Collection preview" className='w-full' />
             </div>
 
             <div className="controls">

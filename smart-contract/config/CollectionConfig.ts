@@ -13,7 +13,7 @@ const CollectionConfig: CollectionConfigInterface = {
   tokenName: 'NFT Collection',
   tokenSymbol: 'YC',
   hiddenMetadataUri: 'ipfs://QmWvb5h8dTGtaW5cmgikopqHDcfNMtptCmguUf2ZqM77ok/',
-  maxSupply: 12000,
+  maxSupply: 7777,
   walletLimit: 100,
   whitelistSale: {
     price: 0.05,

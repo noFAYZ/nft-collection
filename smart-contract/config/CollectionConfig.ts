@@ -9,7 +9,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'Frenimees',
+  contractName: 'WeDontGiveAShit',
   tokenName: 'NFT Collection',
   tokenSymbol: 'YC',
   hiddenMetadataUri: 'ipfs://QmWvb5h8dTGtaW5cmgikopqHDcfNMtptCmguUf2ZqM77ok/',
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.09,
     maxMintAmountPerTx: 5,
   },
-  contractAddress: "0x64f9c854EC064A80f41Dc0289f948CE7DCe3f67F",
+  contractAddress: "0x6A000FC7c9c9C330F57c5ac71E0E7e73298108AE",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,

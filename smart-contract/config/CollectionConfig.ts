@@ -10,14 +10,14 @@ const CollectionConfig: CollectionConfigInterface = {
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
   contractName: 'WeDontGiveAShit',
-  tokenName: 'NFT Collection',
+  tokenName: "We Don't Give A Shit",
   tokenSymbol: 'YC',
-  hiddenMetadataUri: 'ipfs://QmWvb5h8dTGtaW5cmgikopqHDcfNMtptCmguUf2ZqM77ok/',
+  hiddenMetadataUri: 'ipfs://',
   maxSupply: 7777,
-  walletLimit: 100,
+  walletLimit: 2,
   whitelistSale: {
     price: 0.05,
-    maxMintAmountPerTx: 1,
+    maxMintAmountPerTx: 2,
   },
   preSale: {
     price: 0.07,
@@ -25,7 +25,7 @@ const CollectionConfig: CollectionConfigInterface = {
   },
   publicSale: {
     price: 0.09,
-    maxMintAmountPerTx: 5,
+    maxMintAmountPerTx: 2,
   },
   contractAddress: "0x6A000FC7c9c9C330F57c5ac71E0E7e73298108AE",
   marketplaceIdentifier: 'my-nft-token',

@@ -11,7 +11,7 @@ const CollectionConfig: CollectionConfigInterface = {
   // Please DO NOT change it manually!
   contractName: 'WeDontGiveAShit',
   tokenName: "We Don't Give A Shit",
-  tokenSymbol: 'YC',
+  tokenSymbol: 'WDGAS',
   hiddenMetadataUri: 'ipfs://',
   maxSupply: 7777,
   walletLimit: 2,
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 0.09,
     maxMintAmountPerTx: 2,
   },
-  contractAddress: "0x6A000FC7c9c9C330F57c5ac71E0E7e73298108AE",
+  contractAddress: "0xE7a696F234E9eB8F16726a8c07d6Df912d61CbCe",
   marketplaceIdentifier: 'my-nft-token',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
